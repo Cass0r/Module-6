@@ -1,3 +1,4 @@
+/*
 package com.example.module_6;
 
 import java.io.*;
@@ -26,3 +27,5 @@ public class HelloServlet extends HttpServlet {
     public void destroy() {
     }
 }
+
+ */

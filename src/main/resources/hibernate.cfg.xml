@@ -11,7 +11,7 @@
 
 
         <!-- Custom SQLite dialect -->
-        <property name="hibernate.dialect">com.example.SQLiteDialect</property>
+        <property name="hibernate.dialect">com.example.module_6.SQLiteDialect</property>
 
         <!-- Hibernate config -->
         <property name="hibernate.hbm2ddl.auto">validate</property>
@@ -20,7 +20,7 @@
         <property name="hibernate.format_sql">true</property>
 
         <!-- Entity -->
-        <mapping class="com.example.Items"/>
+        <mapping class="com.example.module_6.Items"/>
 
     </session-factory>
 </hibernate-configuration>

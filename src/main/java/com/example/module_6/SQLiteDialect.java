@@ -1,4 +1,4 @@
-package com.example;
+package com.example.module_6;
 
 import org.hibernate.MappingException;
 import org.hibernate.dialect.Dialect;

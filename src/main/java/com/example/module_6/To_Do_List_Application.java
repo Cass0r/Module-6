@@ -1,4 +1,4 @@
-package com.example;
+package com.example.module_6;
 
 public class To_Do_List_Application {
     public static void main(String[] args) {
