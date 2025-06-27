@@ -9,18 +9,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3fc21c3-9892-4002-b187-8be55b60e896" name="Changes" comment="All files from module 4 added to new project">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/module_6/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/module_6/HibernateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/module_6/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/module_6/Items.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/module_6/SQLiteDialect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/module_6/SQLiteDialect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/module_6/To_Do_List_Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/module_6/To_Do_List_Application.java" afterDir="false" />
+    <list default="true" id="d3fc21c3-9892-4002-b187-8be55b60e896" name="Changes" comment="Java classes and hibernate files updated, Fundamental code tested and db connectivity still works">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/83533b29-1479-4a29-8ac3-9f9cd09e60a3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/83533b29-1479-4a29-8ac3-9f9cd09e60a3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/To_Do_ListDB.db" beforeDir="false" afterPath="$PROJECT_DIR$/To_Do_ListDB.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/module_6/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/module_6/ToDoServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/module_6/to_do_item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/module_6/to_do_item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,27 +68,34 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.To_Do_List_Application.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat Server.Tomcat 11.0.8.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/carjo/IdeaProjects/Software Development 2/Module_6/out/artifacts/Module_6_war_exploded",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.18388791",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.To_Do_List_Application">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\carjo\IdeaProjects\Software Development 2\Module_6\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 11.0.8">
     <configuration name="To_Do_List_Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.module_6.To_Do_List_Application" />
       <module name="Module_6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.module_6.*" />
+          <option name="PATTERN" value="com.example.module_6.HelloServlet" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,7 +104,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 11.0.8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.8" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Module_6_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Module_6:war exploded">
           <settings>
@@ -102,6 +120,54 @@
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54976" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -124,6 +190,10 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.To_Do_List_Application" />
+      <item itemvalue="Tomcat Server.Tomcat 11.0.8" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.To_Do_List_Application" />
@@ -149,7 +219,12 @@
       <workItem from="1750723455979" duration="478000" />
       <workItem from="1750723960421" duration="2874000" />
       <workItem from="1750775770223" duration="525000" />
-      <workItem from="1750906719546" duration="2416000" />
+      <workItem from="1750906719546" duration="9084000" />
+      <workItem from="1750982670891" duration="5702000" />
+      <workItem from="1750988420649" duration="6732000" />
+      <workItem from="1750999496936" duration="513000" />
+      <workItem from="1751000038543" duration="246000" />
+      <workItem from="1751047154835" duration="3352000" />
     </task>
     <task id="LOCAL-00001" summary="Project created with TOMCAT setup">
       <option name="closed" value="true" />
@@ -175,15 +250,46 @@
       <option name="project" value="LOCAL" />
       <updated>1750908388011</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Java classes and hibernate files updated, Fundamental code tested and db connectivity still works">
+      <option name="closed" value="true" />
+      <created>1750909481016</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1750909481016</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project created with TOMCAT setup" />
     <MESSAGE value="All files from module 4 added to new project" />
-    <option name="LAST_COMMIT_MESSAGE" value="All files from module 4 added to new project" />
+    <MESSAGE value="Java classes and hibernate files updated, Fundamental code tested and db connectivity still works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java classes and hibernate files updated, Fundamental code tested and db connectivity still works" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/module_6/SQLiteDialect.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

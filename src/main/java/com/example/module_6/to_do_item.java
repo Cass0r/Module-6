@@ -1,8 +1,6 @@
 package com.example.module_6;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 // Class responsible for managing a collection of to-do items and displaying the interactive menu
 public class to_do_item {
@@ -15,7 +13,17 @@ public class to_do_item {
         item = new HashMap<>();
     }
 
-    //----------------------------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------------------------
+//This method will be used for the tomcat config
+    public List<Items> getAllItems() {
+        try (var session = HibernateUtil.getSessionFactory().openSession()) {
+            return session.createQuery("FROM Items", Items.class).list();
+        } catch (Exception e) {
+            System.out.println("Error fetching items: " + e.getMessage());
+            return new ArrayList<>();
+        }
+    }
+//----------------------------------------------------------------------------------------------------------------------
 // Method to add a to-do item to the list
     public boolean Add_Item(Items additem) {
         try (var session = HibernateUtil.getSessionFactory().openSession()) {
