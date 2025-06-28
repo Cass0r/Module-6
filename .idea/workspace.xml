@@ -9,16 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3fc21c3-9892-4002-b187-8be55b60e896" name="Changes" comment="Java classes and hibernate files updated, Fundamental code tested and db connectivity still works">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/83533b29-1479-4a29-8ac3-9f9cd09e60a3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/83533b29-1479-4a29-8ac3-9f9cd09e60a3.xml" afterDir="false" />
+    <list default="true" id="d3fc21c3-9892-4002-b187-8be55b60e896" name="Changes" comment="add,delete, and show jsp files made. HelloServlet class replaced with ToDoServlet class. All thats left is the web page to work.">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Module_6_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/To_Do_ListDB.db" beforeDir="false" afterPath="$PROJECT_DIR$/To_Do_ListDB.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Module_6_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Module_6_war_exploded/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Module_6_war_exploded/WEB-INF/classes/com/example/module_6/HibernateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Module_6_war_exploded/WEB-INF/classes/com/example/module_6/Items.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Module_6_war_exploded/WEB-INF/classes/com/example/module_6/SQLiteDialect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Module_6_war_exploded/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/module_6/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/module_6/ToDoServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/module_6/to_do_item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/module_6/to_do_item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.18388791",
     "vue.rearranger.settings.migration": "true"
@@ -224,7 +225,7 @@
       <workItem from="1750988420649" duration="6732000" />
       <workItem from="1750999496936" duration="513000" />
       <workItem from="1751000038543" duration="246000" />
-      <workItem from="1751047154835" duration="3352000" />
+      <workItem from="1751047154835" duration="10001000" />
     </task>
     <task id="LOCAL-00001" summary="Project created with TOMCAT setup">
       <option name="closed" value="true" />
@@ -258,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750909481016</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add,delete, and show jsp files made. HelloServlet class replaced with ToDoServlet class. All thats left is the web page to work.">
+      <option name="closed" value="true" />
+      <created>1751050641559</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1751050641559</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +288,8 @@
     <MESSAGE value="Project created with TOMCAT setup" />
     <MESSAGE value="All files from module 4 added to new project" />
     <MESSAGE value="Java classes and hibernate files updated, Fundamental code tested and db connectivity still works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java classes and hibernate files updated, Fundamental code tested and db connectivity still works" />
+    <MESSAGE value="add,delete, and show jsp files made. HelloServlet class replaced with ToDoServlet class. All thats left is the web page to work." />
+    <option name="LAST_COMMIT_MESSAGE" value="add,delete, and show jsp files made. HelloServlet class replaced with ToDoServlet class. All thats left is the web page to work." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

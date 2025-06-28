@@ -1,5 +1,7 @@
 package com.example.module_6;
 
+import com.example.module_6.Items;
+
 import java.util.*;
 
 // Class responsible for managing a collection of to-do items and displaying the interactive menu
@@ -15,15 +17,16 @@ public class to_do_item {
 
 //----------------------------------------------------------------------------------------------------------------------
 //This method will be used for the tomcat config
-    public List<Items> getAllItems() {
-        try (var session = HibernateUtil.getSessionFactory().openSession()) {
-            return session.createQuery("FROM Items", Items.class).list();
-        } catch (Exception e) {
-            System.out.println("Error fetching items: " + e.getMessage());
-            return new ArrayList<>();
-        }
+public List<Items> getAllItems() {
+    try (var session = HibernateUtil.getSessionFactory().openSession()) {
+        return session.createQuery("FROM com.example.module_6.Items", Items.class).list();
+    } catch (Exception e) {
+        System.out.println("Error fetching items: " + e.getMessage());
+        return new ArrayList<>();
     }
-//----------------------------------------------------------------------------------------------------------------------
+}
+
+    //----------------------------------------------------------------------------------------------------------------------
 // Method to add a to-do item to the list
     public boolean Add_Item(Items additem) {
         try (var session = HibernateUtil.getSessionFactory().openSession()) {
@@ -64,7 +67,7 @@ public class to_do_item {
 //* View the to-do items
     public void display_items_list() {
         try (var session = HibernateUtil.getSessionFactory().openSession()) {
-            var itemList = session.createQuery("FROM Items", Items.class).list();
+            var itemList = session.createQuery("FROM com.example.module_6.Items", Items.class).list();
             if (itemList.isEmpty()) {
                 System.out.println("No items found in the database.");
             } else {
