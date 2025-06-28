@@ -7,7 +7,10 @@
 
         <!-- SQLite JDBC connection string -->
         <property name="hibernate.connection.driver_class">org.sqlite.JDBC</property>
-        <property name="hibernate.connection.url">jdbc:sqlite:To_Do_ListDB.db</property>
+        <property name="hibernate.connection.url">
+            jdbc:sqlite:C:/Users/carjo/IdeaProjects/Software Development 2/Module_6/To_Do_ListDB.db
+        </property>
+
 
 
         <!-- Custom SQLite dialect -->
